@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+}
+body {
+	background: #EAEAEA;
+	color: white;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.footer, .push {
+	height: 4em;
+	text-align: center;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0; 
+}
+
+/* HEADER */
+
+#header {
+	padding-top: 30px;
+	background-color: gray;
+}
+
+.logoIMG {
+	max-height: 400px;
+}
+
+.header-info {
+	margin-bottom: 50px;
+}
+
+.header-info .text {
+	display: table;
+	height: 400px;
+}
+
+.header-info .text .middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-info .text .middle .inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.header-info .text img {
+	margin-top: 15px;
+}
+
+.header-info h1,
+.header-info p {
+	text-shadow: 0 3px #142328;
+	margin-top: 0;
+}
+
+.header-info p {
+	font-size: 1.2em;
+}
+
+@media not screen and (min-width: 768px) {
+	.header-info .text {
+		display: none;
+	}
+}
+
+/* NAVBAR */
+
+.navbar-default {
+	background-color: #DFDFDF;
+}
+
+#navbar a:link,
+#navbar a:visited {
+	color: #3F3F3F;
+}
+
+#navbar a:hover,
+#header a:active {
+	background-color: #CDCDCD;
+}
+
+#navbar ul li span {
+	display: inline-block;
+	width: 0;
+	height: 2em;
+	margin-top: 12px;
+	border-left: 1px solid #A3A3A3;
+}
+
+@media not screen and (min-width: 768px) {
+	#navbar ul li span {
+		display: none;
+	}
+}
+
+/* END NAVBAR */
+/* END HEADER */
+
+/* STREAMS */
+
+#streamWrapper {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#streamsLoading {
+	height: 75px;
+	margin-top: 30px;
+}
+
+.streamer {
+	margin-top: 15px;
+	max-width: 100%;
+}
+
+.stream-profile {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	height: 80px;
+	box-shadow: 0 3px 2px #142328;
+}
+
+.thumbDesc {
+	margin-top: 5px;
+	padding-left: 5px;
+	margin-left: 70px;
+	color: #303030;
+}
+
+.thumbDesc p {
+	text-decoration: none;
+}
+
+.title, .nameGame {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.stream-preview {
+	margin-left: 25px;
+}
+
+/* END STREAMS */
