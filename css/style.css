@@ -40,7 +40,8 @@ body {
 }
 
 .header-info {
-	margin-bottom: 50px;
+	max-width: 1920px;
+	margin: 0 auto 50px;
 }
 
 .header-info .text {
@@ -80,6 +81,10 @@ body {
 }
 
 /* NAVBAR */
+
+.container-fluid {
+	max-width: 1920px;
+}
 
 .navbar-default {
 	background-color: #DFDFDF;

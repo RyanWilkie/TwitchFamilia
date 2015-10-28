@@ -10,8 +10,8 @@
 			/* STREAMS */
 
 			#streamWrapper {
-				margin-top: 15px;
-				margin-bottom: 10px;
+				max-width: 1920px;
+				margin: 15px auto 10px;
 			}
 
 			/* centered columns styles */
